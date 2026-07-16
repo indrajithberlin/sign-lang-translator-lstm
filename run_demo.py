@@ -96,8 +96,8 @@ def main():
     parser.add_argument("--cam", type=int, default=0)
     parser.add_argument("--smooth_window", type=int, default=5)
     parser.add_argument("--conf_thresh", type=float, default=0.55)
-    parser.add_argument("--width", type=int, default=640)
-    parser.add_argument("--height", type=int, default=480)
+    parser.add_argument("--width", type=int, default=1280)
+    parser.add_argument("--height", type=int, default=720)
     args = parser.parse_args()
 
     if not os.path.exists(args.checkpoint):
@@ -131,9 +131,9 @@ def main():
         raise RuntimeError(f"Cannot open camera index {args.cam}")
 
     # ---------------- FULL SCREEN WINDOW HERE ----------------
-    window_name = "Sign-Lang Translator (press q to quit)"
+    window_name = "Sign-Lang Translator (Press Q to Quit)"
     cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
-    cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+    cv2.resizeWindow(window_name, 1000, 700)
     # ----------------------------------------------------------
 
     last_infer_t = 0.0

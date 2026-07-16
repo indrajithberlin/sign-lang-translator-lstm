@@ -14,11 +14,11 @@ A real-time Sign Language Recognition system built using **PyTorch**, **MediaPip
 
 ## Real-Time Demo
 
-![Real-Time Demo](assets/realtime-demo.gif)
+![Real-Time Demo](assets/realtime-demo.mp4)
 
 ## Prediction Example
 
-![Prediction Example](assets/prediction-example.jpg)
+![Prediction Example](assets/prediction-example.jpeg)
 
 ---
 

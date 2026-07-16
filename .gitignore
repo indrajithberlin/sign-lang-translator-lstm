@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+.dist/
+build/
+dist/
+
+# Environment Variables
+.env
+
+# SSL Certificates
+*.crt
+*.key
+
+# Raw Dataset
+data/raw_videos/
+
+# Logs
+*.log

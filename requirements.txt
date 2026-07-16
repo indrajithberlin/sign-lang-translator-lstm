@@ -1,0 +1,13 @@
+torch>=2.0
+torchvision
+numpy
+opencv-python
+mediapipe
+tqdm
+pandas
+scikit-learn
+matplotlib
+fastapi
+uvicorn[standard]
+jinja2
+python-multipart

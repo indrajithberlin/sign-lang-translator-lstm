@@ -14,11 +14,11 @@ A real-time Sign Language Recognition system built using **PyTorch**, **MediaPip
 
 ## Real-Time Demo
 
-![Real-Time Demo](assets/realtime-demo.gif)
+![Real-Time Demo](assets/realtime-demo.mp4)
 
 ## Prediction Example
 
-![Prediction Example](assets/prediction-example.jpg)
+![Prediction Example](assets/prediction-example.jpeg)
 
 ---
 
@@ -109,7 +109,7 @@ sign-language-translator-lstm/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sign-language-translator-lstm.git
+git clone https://github.com/indrajithberlin/sign-language-translator-lstm.git
 ```
 
 Navigate to the project directory:
@@ -131,7 +131,7 @@ pip install -r requirements.txt
 Run the real-time inference script:
 
 ```bash
-python infer_realtime.py --checkpoint checkpoints/best_model.pth
+python run_demo.py --checkpoint checkpoints/best_model.pth
 ```
 
 Press **Q** to quit the application.
@@ -167,8 +167,9 @@ Press **Q** to quit the application.
 
 B.Tech Computer Science & Engineering (AI & ML)
 
-- LinkedIn: *(Add your LinkedIn profile link)*
-- GitHub: *(Add your GitHub profile link)*
+- LinkedIn: www.linkedin.com/in/indrajith-berlin
+
+- GitHub: https://github.com/indrajithberlin
 
 ---
 

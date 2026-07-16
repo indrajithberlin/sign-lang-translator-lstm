@@ -18,7 +18,7 @@ A real-time Sign Language Recognition system built using **PyTorch**, **MediaPip
 
 ## Prediction Example
 
-![Prediction Example](assets/prediction-example.jpeg)
+![Prediction Example](assets/prediction-example_img.jpeg)
 
 ---
 
